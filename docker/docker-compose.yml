@@ -1,17 +1,18 @@
 version: '2'
 services:
    neo4j:
-     image: neo4j:3.1
+     image: neo4j:3.1-enterprise
      container_name: "CONT-NEO4J-C"
      hostname: neo4j
      environment:
         - NEO4J_AUTH=none
      ports:
         - "7474:7474"
-        - "7687:7587"
+        - "7687:7687"
      volumes:
         - ./db/dbms:/data
         - ./plugins:/plugins/
+        - ./logs:/neo4j/logs
      networks:
         internal:
            ipv4_address: 172.16.11.5

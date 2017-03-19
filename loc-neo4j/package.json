@@ -17,10 +17,12 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:tanzwud/gatling.nodejs.geo.git"
-  }
+  },
   "dependencies": {
     "express": "^4.15.2",
-    "node-neo4j": "^2.0.3"
+    "node-neo4j": "^2.0.3",
+    "request": "2.81.0",
+    "sleep": "5.1.0"
   },
   "homepage": "https://tanzwud.github.io/"
 }
