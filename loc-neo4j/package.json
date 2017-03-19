@@ -1,0 +1,11 @@
+{
+  "name": "NodeJS-Neo4J-Geo-Application",
+  "version": "0.0.1",
+  "description": "Populate GRAPH db with Geo JSON data.",
+  "main": "server.js",
+  "license": "Unlicences",
+  "dependencies": {
+    "express": "^4.13.4",
+    "node-neo4j": "^2.0.3"
+  }
+}
