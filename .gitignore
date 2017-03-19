@@ -1,3 +1,5 @@
 
 .idea/
 pef-node.iml
+/loc-neo4j/node_modules/
+*/data/*.json
