@@ -1,0 +1,6 @@
+
+.idea/
+docker/
+loc-mongo/
+loc-neo4j/
+pef-node.iml
