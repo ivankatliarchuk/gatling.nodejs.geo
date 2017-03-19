@@ -1,11 +1,26 @@
 {
   "name": "NodeJS-Neo4J-Geo-Application",
+  "keywords": [
+    "NodeJS",
+    "Neo4J",
+    "NGINX"
+  ],
+  "author": {
+    "name": "Ivan K",
+    "email": "tanzwud.work@gmail.com",
+    "url": "http://barnyrubble.tumblr.com/"
+  },
   "version": "0.0.1",
   "description": "Populate GRAPH db with Geo JSON data.",
   "main": "server.js",
-  "license": "Unlicences",
-  "dependencies": {
-    "express": "^4.13.4",
-    "node-neo4j": "^2.0.3"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tanzwud/gatling.nodejs.geo.git"
   }
+  "dependencies": {
+    "express": "^4.15.2",
+    "node-neo4j": "^2.0.3"
+  },
+  "homepage": "https://tanzwud.github.io/"
 }

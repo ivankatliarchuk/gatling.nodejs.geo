@@ -3,3 +3,4 @@
 pef-node.iml
 /loc-neo4j/node_modules/
 */data/*.json
+/docker/plugins/neo4j-spatial-0.23-neo4j-3.0.4-server-plugin.jar
